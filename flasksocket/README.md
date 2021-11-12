@@ -1,0 +1,1 @@
+gunicorn --worker-class eventlet --workers 1 --bind 0.0.0.0:9016 run:app --log-level debug
